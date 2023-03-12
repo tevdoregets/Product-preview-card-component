@@ -1,0 +1,71 @@
+body {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2eae2;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  top: 50%;
+  transform: translate(0%, 15%);
+}
+.image {
+  width: 300px;
+}
+.main {
+  width: 300px;
+  padding: 32px;
+}
+.top-p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6c7289;
+  letter-spacing: 5px;
+}
+h1 {
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1c232b;
+}
+.description {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #6c7289;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.new-price {
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 32px;
+  color: #3d8168;
+  margin-right: 20px;
+}
+.old-price {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 13px;
+  color: #6c7289;
+  text-decoration-line: line-through;
+}
+button {
+  background-color: #3d8168;
+  color: White;
+  border-radius: 8px;
+  border: none;
+  width: 230px;
+  height: 48px;
+}
